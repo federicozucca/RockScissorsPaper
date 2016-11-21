@@ -34,7 +34,7 @@ get '/rps/:choice1/:choice2' do
 
   game = Game.new(choice1, choice2)
 
-  @result = game.play()
+  @result = game.play(choice1, choice2)
   erb(:result)
 
 end

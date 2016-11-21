@@ -36,7 +36,5 @@ class Game
       else
         return "scissors"
       end
-
     end
-
 end
